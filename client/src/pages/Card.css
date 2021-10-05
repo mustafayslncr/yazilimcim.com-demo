@@ -1,0 +1,53 @@
+.card_kapsa {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
+}
+
+
+.card_yazi {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    font-size: 20px;
+}
+
+.buton_alt {
+    display: flex;
+    flex-direction: column;
+}
+
+.buton_alt button {
+    margin:5px;
+    padding: 3px 7px;
+    width: 80px;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+}
+
+.text_sepet {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.text_sepet img {
+    width: 250px;
+}
+
+.text_sepet .sepet_yazi {
+    border-bottom: 1px solid black;
+}

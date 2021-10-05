@@ -1,0 +1,22 @@
+.cerceve{
+    background-color: rgb(243, 237, 238);
+    transition: all 1s ease-in-out;
+    
+}
+.cerceve img {
+    width: 100%;
+}
+
+.cerceve:hover{
+    animation-name: nacar;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes nacar{
+    0%{transform: translate(1px,1px);}
+    25%{transform: translate(8px,8px);}
+    50%{transform: translate(1px,1px);}
+    75%{transform: translate(8px,8px);}
+    100%{transform: translate(1px,1px);}
+}

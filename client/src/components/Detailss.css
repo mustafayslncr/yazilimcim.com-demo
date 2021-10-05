@@ -1,0 +1,13 @@
+.detailss{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 20px;
+    letter-spacing: 0.7px;
+}
+.detailss .duz{
+    display: flex;
+    flex-direction: column;
+}
+.detailss img{
+    width: 400px;
+}
